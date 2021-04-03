@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree', sans-serif;
+  }
+  
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: 150px;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 100px;
+  }
+  .customNav a {
+    color: white !important;
+  }
+  
+  .navCTA {
+    margin-left: 150px;
+    margin-right: 0 !important;
+    font-size: 20px;
+  }
+.active {
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+  .jumbotron {
+    background-image: url(../images/hero-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    margin: 25px 0 25px 0
+  }
